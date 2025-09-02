@@ -49,6 +49,7 @@ Add the form to any page or post using the shortcode:
 ```plaintext
 [custom_window_form]
 
+---
 
 ## 🛠️ Admin Access
 
