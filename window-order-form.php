@@ -3,7 +3,7 @@
 Plugin Name: Window Order Form
 Description: A complete window order form with PDF generation and database storage
 Version: 1.0
-Author: Your Name
+Author: Sayyid Mahmood
 Text Domain: window-order-form
 */
 
