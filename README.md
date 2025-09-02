@@ -41,25 +41,70 @@ The plugin uses specific window images that must be uploaded to your media libra
 - `3-column-window.jpg` – Image for "3 Column Window" style  
 
 ---
-
-## 🧩 Shortcode Usage
+##  Shortcofde Usage
 
 Add the form to any page or post using the shortcode:
 
 ```plaintext
 [custom_window_form]
 
+```
 ---
 
-## 🛠️ Admin Access
+🛠️ Admin Access
 
-After activation, a new "Window Orders" menu item will appear in your WordPress admin sidebar, where you can:
+After activation, a new "Window Orders" menu will appear in your WordPress admin sidebar where you can:
 
-- View all submitted orders
+- View submitted orders
 
 - Export orders to CSV
 
-- Delete orders
+- Delete individual orders
 
-## 🌟 Plugin Features
+---
+
+🌟 Plugin Features
+
+After activation, a new "Window Orders" menu will appear in your WordPress admin sidebar where you can:
+
+- Responsive order form with live preview
+
+- PDF quote generation
+
+- Stores orders in the WordPress database
+
+- Admin panel for order management
+
+- CSV export functionality
+
+- Support for multiple window styles
+
+---
+
+❗ Troubleshooting
+
+PDF generation fails:
+
+- Ensure required PHP extensions are installed:
+dom, gd, mbstring
+
+- Confirm the /uploads/ directory is writable
+
+Images not displaying:
+
+- Check that image filenames are exactly:
+
+1-window.jpg
+
+2-column.jpg
+
+3-column-window.jpg
+
+- Check file permissions on the uploaded images
+
+Form not appearing:
+
+- Confirm that the shortcode is correctly placed:
+
+[custom_window_form]
 
