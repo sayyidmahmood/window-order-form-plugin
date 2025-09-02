@@ -49,3 +49,16 @@ Add the form to any page or post using the shortcode:
 ```plaintext
 [custom_window_form]
 
+
+## 🛠️ Admin Access
+
+After activation, a new "Window Orders" menu item will appear in your WordPress admin sidebar, where you can:
+
+- View all submitted orders
+
+- Export orders to CSV
+
+- Delete orders
+
+## 🌟 Plugin Features
+
